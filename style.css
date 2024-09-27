@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #0066cc;
+    font-size: 32px; /* Tăng kích thước tiêu đề */
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px; /* Tăng khoảng cách bên trong hộp */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Tăng chiều rộng của container */
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    padding: 12px; /* Tăng kích thước input */
+    margin: 15px 0; /* Tăng khoảng cách giữa các input */
+    border-radius: 6px; /* Làm bo góc input mềm hơn */
+    border: 1px solid #ccc;
+    font-size: 18px; /* Tăng kích thước chữ trong input */
+}
+
+button {
+    padding: 15px; /* Tăng kích thước nút */
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px; /* Tăng kích thước chữ trên nút */
+    margin-top: 10px; /* Tăng khoảng cách giữa các nút */
+    width: 100%; /* Để nút chiếm hết chiều rộng */
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+.result {
+    margin-top: 25px;
+    font-size: 20px; /* Tăng kích thước kết quả */
+}
